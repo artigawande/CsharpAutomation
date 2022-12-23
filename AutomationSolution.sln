@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpConcept", "CSharpConcept\CSharpConcept.csproj", "{01611203-0CAE-4F02-B3AA-448D5A172BAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAssignment", "CSharpConcept\ConsoleAssignment\ConsoleAssignment.csproj", "{AF8232FD-B36A-4D20-ACF4-16EE891D502E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01611203-0CAE-4F02-B3AA-448D5A172BAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01611203-0CAE-4F02-B3AA-448D5A172BAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01611203-0CAE-4F02-B3AA-448D5A172BAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01611203-0CAE-4F02-B3AA-448D5A172BAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF8232FD-B36A-4D20-ACF4-16EE891D502E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF8232FD-B36A-4D20-ACF4-16EE891D502E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF8232FD-B36A-4D20-ACF4-16EE891D502E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF8232FD-B36A-4D20-ACF4-16EE891D502E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {97CFFA20-DC26-4C60-BBBA-C65D50659C86}
+	EndGlobalSection
+EndGlobal
