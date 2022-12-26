@@ -19,7 +19,7 @@ namespace Maths.CSharpConcept
                 double ans = 3.14 * radius * radius * height / 3;
                 return ans;
             }
-            public static double VolumnOfCuboid(int length, double width, double height)
+            public static double VolumnOfCuboid(double length, double width, double height)
             {
                 double ans = length * width * height;
                 return ans;
