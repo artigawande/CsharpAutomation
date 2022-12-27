@@ -37,11 +37,13 @@ namespace SchoolManagement
         public void DisplayCertification()
         {
             char grade;
+
+            Console.WriteLine("studentPercentage : " + studentPercentage);
            
             if(studentPercentage>90)
             {
                 grade = 'A';
-                Console.WriteLine("Hi Jack! You have successfully passed with grade A ");
+                
             }
 
             else
@@ -49,7 +51,7 @@ namespace SchoolManagement
                 if (studentPercentage >= 80 && studentPercentage <= 89)
                 {
                     grade = 'B';
-                    Console.WriteLine("Hi Peter! You have successfully passed with grade B ");
+                    
                 }
 
                 else
