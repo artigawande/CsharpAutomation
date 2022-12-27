@@ -10,8 +10,8 @@ namespace ShoppingCartProject
     {
         public static void Main(string[] args)
         {
-            ShoppingCart shop=new ShoppingCart();
-            ShoppingCart shop1 = new ShoppingCart();
+            ShoppingCart shop=new ShoppingCart(7);
+            ShoppingCart shop1 = new ShoppingCart(8);
 
             shop.id = 101;
             shop.descr = " Laptop";
@@ -19,7 +19,7 @@ namespace ShoppingCartProject
             shop.price = 45000;
 
             shop1.id = 102;
-            shop1.descr = " Laptop";
+            shop1.descr = "Laptop";
             shop1.quantity = 2;
             shop1.price = 55000;
 
