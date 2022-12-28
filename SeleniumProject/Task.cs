@@ -28,8 +28,8 @@ namespace SeleniumProject
             driver.FindElement(By.Name("customer.ssn")).SendKeys("123");
             driver.FindElement(By.Name("customer.username")).SendKeys("Arti@123");
             driver.FindElement(By.Name("customer.password")).SendKeys("ArtiG@123434");
-            driver.FindElement(By.TagName("repeatedpassword")).SendKeys("ArtiG@123434");
-            driver.FindElement(By.TagName("submit")).Click();
+            driver.FindElement(By.Id("repeatedPassword")).SendKeys("ArtiG@123434");
+            driver.FindElement(By.ClassName("button")).Click();
 
            
         }

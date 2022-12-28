@@ -8,11 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Task.cs" />
+    <Compile Remove="Task2.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Task.cs" />
+    <None Include="Task2.cs" />
   </ItemGroup>
 
   <ItemGroup>
