@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -6,14 +6,6 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Task.cs" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="Task.cs" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Selenium.Support" Version="4.7.0" />

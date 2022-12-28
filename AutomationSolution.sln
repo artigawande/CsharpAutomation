@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumConcept", "Selenium
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumProject", "SeleniumProject\SeleniumProject.csproj", "{F3F634EE-C8D5-44B1-B51B-0905BB77689C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalesForceProject", "SalesForceProject\SalesForceProject.csproj", "{7642FB11-082A-4805-8E83-0FCEA83134B9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F3F634EE-C8D5-44B1-B51B-0905BB77689C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3F634EE-C8D5-44B1-B51B-0905BB77689C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3F634EE-C8D5-44B1-B51B-0905BB77689C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7642FB11-082A-4805-8E83-0FCEA83134B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7642FB11-082A-4805-8E83-0FCEA83134B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7642FB11-082A-4805-8E83-0FCEA83134B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7642FB11-082A-4805-8E83-0FCEA83134B9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
