@@ -13,7 +13,7 @@ namespace SeleniumDemo
     {
         public static void Main(string[] args)
         {
-            ChromeDriver driver= new ChromeDriver();
+            IWebDriver driver= new ChromeDriver();
 
             driver.Url = "https://nasscom.in/";
 

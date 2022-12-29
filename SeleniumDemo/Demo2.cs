@@ -12,7 +12,7 @@ namespace SeleniumDemo
     {
        public static void Main(string[] args)
         {
-            ChromeDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Url = "https://www.medibuddy.in/";
             driver.Manage().Window.Maximize();
             driver.Manage().Timeouts().ImplicitWait=TimeSpan.FromSeconds(30);
@@ -33,8 +33,9 @@ namespace SeleniumDemo
 
             driver.FindElement(By.XPath("//button[text()='Log in']")).Click();
 
-            
 
+            string Errormassage = driver.FindElement(By.XPath("//*[contains(text(), 'incorrect')")).Text;
+            Console.WriteLine(Errormassage);
 
 
 

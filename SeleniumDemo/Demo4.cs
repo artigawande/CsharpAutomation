@@ -12,7 +12,7 @@ namespace SeleniumDemo
     {
         public static void Main(string[] args)
         {
-            ChromeDriver driver = new ChromeDriver();
+            IWebDriver driver = new ChromeDriver();
             driver.Url = "https://www.oracle.com/in/database/";
 
             driver.Manage().Window.Maximize();

@@ -8,15 +8,15 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Remove="Demo1.cs" />
     <Compile Remove="Demo2.cs" />
     <Compile Remove="Demo3.cs" />
+    <Compile Remove="Demo4.cs" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Include="Demo1.cs" />
     <None Include="Demo2.cs" />
     <None Include="Demo3.cs" />
+    <None Include="Demo4.cs" />
   </ItemGroup>
 
   <ItemGroup>
